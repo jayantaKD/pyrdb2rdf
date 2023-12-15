@@ -8,13 +8,20 @@ from binascii import hexlify as _bytes2hexstr, unhexlify as _hexstr2bytes
 from datetime import timedelta as _timedelta
 from urllib import quote as _pct_encoded
 
+import rdflib
 import rdflib as _rdf
-import spruce.datetime as _sdt
+# import spruce.datetime as _sdt
 import sqlalchemy as _sqla
 
+# sqlalchemy.dialects.
+import sqlalchemy.dialects.mysql.types
 
-def canon_rdf_datatype_from_sql(sql_type):
 
+def canon_rdf_datatype_from_sql(sql_type, colname='test'):
+
+    # print '----canon_rdf_datatype_from_sql---'
+    # print colname
+    # print '-------'
     if not isinstance(sql_type, type):
         sql_type = sql_type.__class__
 
@@ -26,6 +33,9 @@ def iri_safe(string):
 
 
 def rdf_datatypes_from_sql(sql_type):
+    # print '----canon_rdf_datatype_from_sql---'
+    # print sql_type
+    # print '-------'
 
     if not isinstance(sql_type, type):
         sql_type = sql_type.__class__
@@ -71,6 +81,7 @@ def _canon_rdf_datatype_from_sql(sql_type):
     try:
         return _CANON_RDF_DATATYPE_BY_SQL_TYPE[sql_type]
     except KeyError:
+        # print sql_type
         datatype = _canon_rdf_datatype_from_sql(sql_type.__mro__[1])
         _CANON_RDF_DATATYPE_BY_SQL_TYPE[sql_type] = datatype
         return datatype
@@ -80,6 +91,7 @@ def _rdf_datatypes_from_sql(sql_type):
     try:
         return _RDF_DATATYPES_BY_SQL_TYPE[sql_type]
     except KeyError:
+        # print sql_type
         datatype = _rdf_datatypes_from_sql(sql_type.__mro__[1])
         _RDF_DATATYPES_BY_SQL_TYPE[sql_type] = datatype
         return datatype
@@ -89,6 +101,7 @@ def _rdf_literal_from_sql_func(sql_type):
     try:
         return _RDF_LITERAL_FROM_SQL_FUNC_BY_SQL_TYPE[sql_type]
     except KeyError:
+        # print sql_type
         rdf_literal_from_sql = \
             _rdf_literal_from_sql_func(sql_type.__mro__[1])
         _RDF_LITERAL_FROM_SQL_FUNC_BY_SQL_TYPE[sql_type] = \
@@ -145,6 +158,13 @@ _CANON_RDF_DATATYPE_BY_SQL_TYPE = \
      _sqla.Interval: _rdf.XSD.duration,
      _sqla.Numeric: _rdf.XSD.decimal,
      _sqla.String: _rdf.XSD.string,
+
+     sqlalchemy.dialects.mysql.types.VARCHAR: _rdf.XSD.string,
+     sqlalchemy.dialects.mysql.types.INTEGER: _rdf.XSD.integer,
+     sqlalchemy.dialects.mysql.types.DOUBLE: _rdf.XSD.double,
+     sqlalchemy.dialects.mysql.types.TIME: _rdf.XSD.time,
+     sqlalchemy.dialects.mysql.types.MEDIUMTEXT: _rdf.XSD.long,
+     sqlalchemy.dialects.mysql.types.TINYINT: _rdf.XSD.boolean,
      _sqla.Time: _rdf.XSD.time,
      _sqla.sql.type_api.TypeEngine: None,
      }
@@ -162,6 +182,17 @@ _RDF_LITERAL_FROM_SQL_FUNC_BY_SQL_TYPE = \
      _sqla.Interval: _rdf_duration_from_timedelta,
      _sqla.Numeric: lambda literal: _rdf.Literal(literal),
      _sqla.String: lambda literal: _rdf.Literal(literal),
+
+      sqlalchemy.dialects.mysql.types.VARCHAR: lambda literal: _rdf.Literal(literal),
+      sqlalchemy.dialects.mysql.types.INTEGER: lambda literal: _rdf.Literal(literal),
+
+     sqlalchemy.dialects.mysql.types.VARCHAR: lambda literal: _rdf.Literal(literal),
+     sqlalchemy.dialects.mysql.types.INTEGER: lambda literal: _rdf.Literal(literal),
+     sqlalchemy.dialects.mysql.types.DOUBLE: lambda literal: _rdf.Literal(literal),
+     sqlalchemy.dialects.mysql.types.TIME: lambda literal: _rdf.Literal(literal),
+     sqlalchemy.dialects.mysql.types.MEDIUMTEXT: lambda literal: _rdf.Literal(literal),
+     sqlalchemy.dialects.mysql.types.TINYINT: lambda literal: _rdf.Literal(literal),
+
      _sqla.Time: lambda literal: _rdf.Literal(literal),
      _sqla.sql.type_api.TypeEngine:
          lambda literal: _rdf.Literal(unicode(literal)),
@@ -221,6 +252,16 @@ else:
          .append(_sqla.dialects.postgresql.INTERVAL)
     del rdf_datatype
 
+try:
+    _sqla.dialects.registry.load('mysql')
+except _sqla.exc.NoSuchModuleError:
+    pass
+else:
+    for rdf_datatype in (_rdf.XSD.dayTimeDuration, _rdf.XSD.duration,
+                         _rdf.XSD.yearMonthDuration):
+        _SQL_LITERAL_TYPES_BY_RDF_DATATYPE[rdf_datatype]\
+         .append(_sqla.dialects.mysql.TIME)
+    del rdf_datatype
 
 _RDF_DATATYPES_BY_SQL_TYPE = {}
 for rdf_datatype, sql_types in _SQL_LITERAL_TYPES_BY_RDF_DATATYPE.items():
@@ -236,13 +277,14 @@ _RDF_DATATYPES_BY_SQL_TYPE[_sqla.sql.type_api.TypeEngine] = [None]
 
 
 def _timedelta_from_rdf_duration(literal):
-
-    match = _sdt.ISO8601_DURATION_RE.match(literal)
+    # match = _sdt.ISO8601_DURATION_RE.match(literal)
+    match = True
 
     if not match:
-        raise ValueError('invalid RDF interval literal {!r}: expecting a'
-                          ' literal that matches the format {!r}'
-                          .format(literal, _sdt.ISO8601_DURATION_RE.pattern))
+        pass
+        # raise ValueError('invalid RDF interval literal {!r}: expecting a'
+        #                   ' literal that matches the format {!r}'
+        #                   .format(literal, _sdt.ISO8601_DURATION_RE.pattern))
 
     return _timedelta(years=int(match.group('years') or 0),
                       months=int(match.group('months') or 0),

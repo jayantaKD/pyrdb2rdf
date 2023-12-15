@@ -1,0 +1,203 @@
+@base <http://infobeyondtech.com/unifieddl/> .
+@prefix ns1: <TargetDamageAssessments#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<TargetDamageAssessments/id=1> a <TargetDamageAssessments> ;
+    ns1:DamageResultReason "RandomDraw" ;
+    ns1:FirerCourse 220.0000000000 ;
+    ns1:FirerSpeedKnots 18.3100000000 ;
+    ns1:FirerVehicle "SC/84fa8026/25e3/293" ;
+    ns1:Munition "JS/84fa8026/25d6/1563" ;
+    ns1:NewDamageState "Accumulating Damage" ;
+    ns1:PreDamageState "No damage" ;
+    ns1:ShooterToDetonationMeters 13335.3000000000 ;
+    ns1:ShooterToTargetMeters 13322.9000000000 ;
+    ns1:SlantRangeMeters 36.7000000000 ;
+    ns1:Target "SC/84fa8026/25e3/306" ;
+    ns1:TargetCourse 239.2500000000 ;
+    ns1:TargetFromDetonation 1 ;
+    ns1:TargetSpeedKnots 10.8200000000 ;
+    ns1:ThisDamageResult "Catastrophic kill" ;
+    ns1:Timestamp "2449631" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 1 .
+
+<TargetDamageAssessments/id=2> a <TargetDamageAssessments> ;
+    ns1:DamageResultReason "RandomDraw" ;
+    ns1:FirerCourse 220.0000000000 ;
+    ns1:FirerSpeedKnots 18.3100000000 ;
+    ns1:FirerVehicle "SC/84fa8026/25e3/293" ;
+    ns1:Munition "JS/84fa8026/25d6/2093" ;
+    ns1:NewDamageState "Accumulating Damage" ;
+    ns1:PreDamageState "No damage" ;
+    ns1:ShooterToDetonationMeters 13292.8000000000 ;
+    ns1:ShooterToTargetMeters 13319.8000000000 ;
+    ns1:SlantRangeMeters 40.0000000000 ;
+    ns1:Target "SC/84fa8026/25e3/306" ;
+    ns1:TargetCourse 239.0200000000 ;
+    ns1:TargetFromDetonation 1 ;
+    ns1:TargetSpeedKnots 11.7000000000 ;
+    ns1:ThisDamageResult "Catastrophic kill" ;
+    ns1:Timestamp "2450571" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 2 .
+
+<TargetDamageAssessments/id=3> a <TargetDamageAssessments> ;
+    ns1:DamageResultReason "RandomDraw" ;
+    ns1:FirerCourse 220.0000000000 ;
+    ns1:FirerSpeedKnots 18.3100000000 ;
+    ns1:FirerVehicle "SC/84fa8026/25e3/293" ;
+    ns1:Munition "JS/84fa8026/25d6/2104" ;
+    ns1:NewDamageState "Catastrophic kill" ;
+    ns1:PreDamageState "No damage" ;
+    ns1:ShooterToDetonationMeters 13324.8000000000 ;
+    ns1:ShooterToTargetMeters 13317.3000000000 ;
+    ns1:SlantRangeMeters 25.4000000000 ;
+    ns1:Target "SC/84fa8026/25e3/306" ;
+    ns1:TargetCourse 239.0200000000 ;
+    ns1:TargetFromDetonation 1 ;
+    ns1:TargetSpeedKnots 11.7000000000 ;
+    ns1:ThisDamageResult "Catastrophic kill" ;
+    ns1:Timestamp "2451644" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 3 .
+
+<TargetDamageAssessments/id=4> a <TargetDamageAssessments> ;
+    ns1:DamageResultReason "RandomDraw" ;
+    ns1:FirerCourse 220.0000000000 ;
+    ns1:FirerSpeedKnots 18.3100000000 ;
+    ns1:FirerVehicle "SC/84fa8026/25e3/293" ;
+    ns1:Munition "JS/84fa8026/25d6/2113" ;
+    ns1:NewDamageState "Catastrophic kill" ;
+    ns1:PreDamageState "Catastrophic kill" ;
+    ns1:ShooterToDetonationMeters 13305.2000000000 ;
+    ns1:ShooterToTargetMeters 13317.3000000000 ;
+    ns1:SlantRangeMeters 17.3000000000 ;
+    ns1:Target "SC/84fa8026/25e3/306" ;
+    ns1:TargetCourse 239.0200000000 ;
+    ns1:TargetFromDetonation 1 ;
+    ns1:TargetSpeedKnots 11.7000000000 ;
+    ns1:ThisDamageResult "Catastrophic kill" ;
+    ns1:Timestamp "2451644" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 4 .
+
+<TargetDamageAssessments/id=5> a <TargetDamageAssessments> ;
+    ns1:DamageResultReason "RandomDraw" ;
+    ns1:FirerCourse 220.0000000000 ;
+    ns1:FirerSpeedKnots 18.3100000000 ;
+    ns1:FirerVehicle "SC/84fa8026/25e3/293" ;
+    ns1:Munition "JS/84fa8026/25d6/2127" ;
+    ns1:NewDamageState "Catastrophic kill" ;
+    ns1:PreDamageState "Catastrophic kill" ;
+    ns1:ShooterToDetonationMeters 13295.5000000000 ;
+    ns1:ShooterToTargetMeters 13312.0000000000 ;
+    ns1:SlantRangeMeters 31.4000000000 ;
+    ns1:Target "SC/84fa8026/25e3/306" ;
+    ns1:TargetCourse 238.8900000000 ;
+    ns1:TargetFromDetonation 1 ;
+    ns1:TargetSpeedKnots 10.7600000000 ;
+    ns1:ThisDamageResult "Catastrophic kill" ;
+    ns1:Timestamp "2453101" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 5 .
+
+<TargetDamageAssessments/id=6> a <TargetDamageAssessments> ;
+    ns1:DamageResultReason "RandomDraw" ;
+    ns1:FirerCourse 220.0000000000 ;
+    ns1:FirerSpeedKnots 18.3100000000 ;
+    ns1:FirerVehicle "SC/84fa8026/25e3/293" ;
+    ns1:Munition "JS/84fa8026/25d6/2138" ;
+    ns1:NewDamageState "Catastrophic kill" ;
+    ns1:PreDamageState "Catastrophic kill" ;
+    ns1:ShooterToDetonationMeters 13332.5000000000 ;
+    ns1:ShooterToTargetMeters 13310.1000000000 ;
+    ns1:SlantRangeMeters 42.7000000000 ;
+    ns1:Target "SC/84fa8026/25e3/306" ;
+    ns1:TargetCourse 238.8900000000 ;
+    ns1:TargetFromDetonation 1 ;
+    ns1:TargetSpeedKnots 10.3200000000 ;
+    ns1:ThisDamageResult "Catastrophic kill" ;
+    ns1:Timestamp "2453589" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 6 .
+
+<TargetDamageAssessments/id=7> a <TargetDamageAssessments> ;
+    ns1:DamageResultReason "RandomDraw" ;
+    ns1:FirerCourse 106.0300000000 ;
+    ns1:FirerSpeedKnots 32.3800000000 ;
+    ns1:FirerVehicle "JS/84fa8026/25d6/63" ;
+    ns1:Munition "30mm AA CIWS (RUS)" ;
+    ns1:NewDamageState "Catastrophic kill" ;
+    ns1:PreDamageState "No damage" ;
+    ns1:ShooterToDetonationMeters 3033.1000000000 ;
+    ns1:ShooterToTargetMeters 2894.7000000000 ;
+    ns1:SlantRangeMeters 0 ;
+    ns1:Target "JS/84fa8026/25d6/644" ;
+    ns1:TargetCourse 114.2400000000 ;
+    ns1:TargetFromDetonation 1 ;
+    ns1:TargetSpeedKnots 547.9300000000 ;
+    ns1:ThisDamageResult "Catastrophic kill" ;
+    ns1:Timestamp "4396430" ;
+    ns1:ZuluTime "16:04:00"^^xsd:time ;
+    ns1:id 7 .
+
+<TargetDamageAssessments/id=8> a <TargetDamageAssessments> ;
+    ns1:DamageResultReason "RandomDraw" ;
+    ns1:FirerCourse 106.0300000000 ;
+    ns1:FirerSpeedKnots 32.3800000000 ;
+    ns1:FirerVehicle "JS/84fa8026/25d6/63" ;
+    ns1:Munition "30mm AA CIWS (RUS)" ;
+    ns1:NewDamageState "Catastrophic kill" ;
+    ns1:PreDamageState "Catastrophic kill" ;
+    ns1:ShooterToDetonationMeters 3033.1000000000 ;
+    ns1:ShooterToTargetMeters 2894.7000000000 ;
+    ns1:SlantRangeMeters 0 ;
+    ns1:Target "JS/84fa8026/25d6/644" ;
+    ns1:TargetCourse 114.2400000000 ;
+    ns1:TargetFromDetonation 1 ;
+    ns1:TargetSpeedKnots 547.9300000000 ;
+    ns1:ThisDamageResult "Catastrophic kill" ;
+    ns1:Timestamp "4396430" ;
+    ns1:ZuluTime "16:04:00"^^xsd:time ;
+    ns1:id 8 .
+
+<TargetDamageAssessments/id=9> a <TargetDamageAssessments> ;
+    ns1:DamageResultReason "RandomDraw" ;
+    ns1:FirerCourse 106.0300000000 ;
+    ns1:FirerSpeedKnots 32.3800000000 ;
+    ns1:FirerVehicle "JS/84fa8026/25d6/63" ;
+    ns1:Munition "30mm AA CIWS (RUS)" ;
+    ns1:NewDamageState "Catastrophic kill" ;
+    ns1:PreDamageState "Catastrophic kill" ;
+    ns1:ShooterToDetonationMeters 3033.1000000000 ;
+    ns1:ShooterToTargetMeters 2894.7000000000 ;
+    ns1:SlantRangeMeters 0 ;
+    ns1:Target "JS/84fa8026/25d6/644" ;
+    ns1:TargetCourse 114.2400000000 ;
+    ns1:TargetFromDetonation 1 ;
+    ns1:TargetSpeedKnots 547.9300000000 ;
+    ns1:ThisDamageResult "Catastrophic kill" ;
+    ns1:Timestamp "4396430" ;
+    ns1:ZuluTime "16:04:00"^^xsd:time ;
+    ns1:id 9 .
+	
+<TargetDamageAssessments/id=10> a <TargetDamageAssessments> ;
+    ns1:DamageResultReason "RandomDraw" ;
+    ns1:FirerCourse 106.0300000000 ;
+    ns1:FirerSpeedKnots 32.3800000000 ;
+    ns1:FirerVehicle "JS/84fa8026/25d6/63" ;
+    ns1:Munition "30mm AA CIWS (RUS)" ;
+    ns1:NewDamageState "Catastrophic kill" ;
+    ns1:PreDamageState "Catastrophic kill" ;
+    ns1:ShooterToDetonationMeters 3033.1000000000 ;
+    ns1:ShooterToTargetMeters 2894.7000000000 ;
+    ns1:SlantRangeMeters 0 ;
+    ns1:Target "JS/84fa8026/25d6/644" ;
+    ns1:TargetCourse 114.2400000000 ;
+    ns1:TargetFromDetonation 1 ;
+    ns1:TargetSpeedKnots 547.9300000000 ;
+    ns1:ThisDamageResult "Catastrophic kill" ;
+    ns1:Timestamp "4396430" ;
+    ns1:ZuluTime "16:04:00"^^xsd:time ;
+    ns1:id 10 .

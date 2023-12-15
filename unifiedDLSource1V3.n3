@@ -1,0 +1,597 @@
+@base <http://infobeyondtech.com/unifieddl/> .
+@prefix ns1: <MunitionImpactIncidents#> .
+@prefix ns2: <MilitaryEquipments#> .
+@prefix ns3: <MunitionFireIncidents#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<MilitaryEquipments/Id=1> a <MilitaryEquipments> ;
+    ns2:Id 1 ;
+    ns2:MarkingCallsign "SU30MK2-1" ;
+    ns2:MilitaryEquipmentID "32806/24458/158" ;
+    ns2:MilitaryEquipmentType "Su-30 (RUS)" ;
+    ns2:RTIName "JS/84fa8026/25d6/71" .
+
+<MilitaryEquipments/Id=16> a <MilitaryEquipments> ;
+    ns2:Id 16 ;
+    ns2:MarkingCallsign "Unknown" ;
+    ns2:MilitaryEquipmentID "Unknown" ;
+    ns2:MilitaryEquipmentType "Unknown" ;
+    ns2:RTIName "Unknown" .
+
+<MilitaryEquipments/Id=2> a <MilitaryEquipments> ;
+    ns2:Id 2 ;
+    ns2:MarkingCallsign "MIG29K-1" ;
+    ns2:MilitaryEquipmentID "32806/24458/326" ;
+    ns2:MilitaryEquipmentType "MiG-29 Fulcrum A  (RUS)" ;
+    ns2:RTIName "JS/84fa8026/25d6/47" .
+
+<MilitaryEquipments/Id=3> a <MilitaryEquipments> ;
+    ns2:Id 3 ;
+    ns2:MarkingCallsign "SOVREMENNY II-1" ;
+    ns2:MilitaryEquipmentID "32806/24458/1272" ;
+    ns2:MilitaryEquipmentType "DDG Sovremenny II (CHN Project 956EM)" ;
+    ns2:RTIName "SC/84fa8026/25e3/293" .
+
+<MilitaryEquipments/Id=4> a <MilitaryEquipments> ;
+    ns2:Id 4 ;
+    ns2:MarkingCallsign "DONGDIAO" ;
+    ns2:MilitaryEquipmentID "32806/24458/1411" ;
+    ns2:MilitaryEquipmentType "AGI Dongdiao (CHN Icebreakers Intelligence)" ;
+    ns2:RTIName "SC/84fa8026/25e3/306" .
+
+<MunitionFireIncidents/id=1> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters 1.0040000000 ;
+    ns3:FireLocationLatitude 18.9116347700 ;
+    ns3:FireLocationLongitude -75.0205075300 ;
+    ns3:FirerCourseDegree 174.9000000000 ;
+    ns3:FirerSpeedKnots 376.5100000000 ;
+    ns3:FirerVehicle "32806/24458/158" ;
+    ns3:Munition "32806/24458/344" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2045714" ;
+    ns3:ZuluTime "15:25:00"^^xsd:time ;
+    ns3:id 1 ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=1> ;
+	ns3:ref-Target <MilitaryEquipments/Id=16> ;
+    ns3:ref-Munition <MilitaryEquipments/Id=5> .
+
+<MunitionFireIncidents/id=10> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3377046400 ;
+    ns3:FireLocationLongitude -72.9889949400 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1582" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2424547" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 10 ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns3:ref-Target <MilitaryEquipments/Id=16> ;
+    ns3:ref-Munition <MilitaryEquipments/Id=14> .
+
+<MunitionFireIncidents/id=2> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters 1.0040000000 ;
+    ns3:FireLocationLatitude 18.9115232000 ;
+    ns3:FireLocationLongitude -75.0204973800 ;
+    ns3:FirerCourseDegree 174.9000000000 ;
+    ns3:FirerSpeedKnots 376.5100000000 ;
+    ns3:FirerVehicle "32806/24458/158" ;
+    ns3:Munition "32806/24458/451" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2045778" ;
+    ns3:ZuluTime "15:25:00"^^xsd:time ;
+    ns3:id 2 ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=1> ;
+	ns3:ref-Target <MilitaryEquipments/Id=16> ;
+    ns3:ref-Munition <MilitaryEquipments/Id=6> .
+
+<MunitionFireIncidents/id=3> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters 6098.2600000000 ;
+    ns3:FireLocationLatitude 18.8839565200 ;
+    ns3:FireLocationLongitude -75.1205876800 ;
+    ns3:FirerCourseDegree 0 ;
+    ns3:FirerSpeedKnots 300.0100000000 ;
+    ns3:FirerVehicle "32806/24458/326" ;
+    ns3:Munition "32806/24458/435" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2099153" ;
+    ns3:ZuluTime "15:26:00"^^xsd:time ;
+    ns3:id 3 ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=2> ;
+	ns3:ref-Target <MilitaryEquipments/Id=16> ;
+    ns3:ref-Munition <MilitaryEquipments/Id=7> .
+
+<MunitionFireIncidents/id=4> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters 6098.2640000000 ;
+    ns3:FireLocationLatitude 18.8840707400 ;
+    ns3:FireLocationLongitude -75.1205874200 ;
+    ns3:FirerCourseDegree 0 ;
+    ns3:FirerSpeedKnots 300.0100000000 ;
+    ns3:FirerVehicle "32806/24458/326" ;
+    ns3:Munition "32806/24458/991" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2099235" ;
+    ns3:ZuluTime "15:26:00"^^xsd:time ;
+    ns3:id 4 ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=2> ;
+	ns3:ref-Target <MilitaryEquipments/Id=16> ;
+    ns3:ref-Munition <MilitaryEquipments/Id=8> .
+
+<MunitionFireIncidents/id=5> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters 6098.2790000000 ;
+    ns3:FireLocationLatitude 18.8845373900 ;
+    ns3:FireLocationLongitude -75.1205863500 ;
+    ns3:FirerCourseDegree 0 ;
+    ns3:FirerSpeedKnots 300.0100000000 ;
+    ns3:FirerVehicle "32806/24458/326" ;
+    ns3:Munition "32806/24458/1525" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2099570" ;
+    ns3:ZuluTime "15:26:00"^^xsd:time ;
+    ns3:id 5 ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=2> ;
+	ns3:ref-Target <MilitaryEquipments/Id=16> ;
+    ns3:ref-Munition <MilitaryEquipments/Id=9> .
+
+<MunitionFireIncidents/id=6> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3379124400 ;
+    ns3:FireLocationLongitude -72.9887802300 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1286" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2421126" ;
+    ns3:ZuluTime "00:00:01"^^xsd:time ;
+    ns3:id 6 ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns3:ref-Target <MilitaryEquipments/Id=16> ;
+    ns3:ref-Munition <MilitaryEquipments/Id=10> .
+
+<MunitionFireIncidents/id=7> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3378520000 ;
+    ns3:FireLocationLongitude -72.9888426800 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1551" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2422121" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 7 ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns3:ref-Target <MilitaryEquipments/Id=16> ;
+    ns3:ref-Munition <MilitaryEquipments/Id=11> .
+
+<MunitionFireIncidents/id=8> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3377905300 ;
+    ns3:FireLocationLongitude -72.9889061900 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1561" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2423133" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 8 ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns3:ref-Target <MilitaryEquipments/Id=16> ;
+    ns3:ref-Munition <MilitaryEquipments/Id=12> .
+
+<MunitionFireIncidents/id=9> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3377621100 ;
+    ns3:FireLocationLongitude -72.9889355600 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1565" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2423601" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 9 ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns3:ref-Target <MilitaryEquipments/Id=16> ;
+    ns3:ref-Munition <MilitaryEquipments/Id=13> .
+
+<MunitionImpactIncidents/id=1> a <MunitionImpactIncidents> ;
+    ns1:FireLocationAltitudeMeters 2.0100000000 ;
+    ns1:FireLocationLatitude 18.7157717300 ;
+    ns1:FireLocationLongitude -75.0027075900 ;
+    ns1:FirerVehicle "32806/24458/158" ;
+    ns1:ImpactLocationAltitudeMeters 4.9820000000 ;
+    ns1:ImpactLocationLatitude 18.1027312300 ;
+    ns1:ImpactLocationLongitude -75.6231813000 ;
+    ns1:ImpactResult "Ground Impact" ;
+    ns1:ImpactVelocityMeterPerSec 993.9000000000 ;
+    ns1:Munition "32806/24458/344" ;
+    ns1:Quantity 1 ;
+    ns1:Rate 0 ;
+    ns1:Target "Unknown" ;
+    ns1:TargetLocationAltitudeMeters "NA" ;
+    ns1:TargetLocationLatitude "NA" ;
+    ns1:TargetLocationLongitude "NA" ;
+    ns1:Timestamp "2158059" ;
+    ns1:ZuluTime "15:27:00"^^xsd:time ;
+    ns1:id 1 ;
+	ns1:ref-FirerVehicle <MilitaryEquipments/Id=1> ;
+	ns1:ref-Target <MilitaryEquipments/Id=16> ;
+    ns1:ref-Munition <MilitaryEquipments/Id=5> .
+
+<MunitionImpactIncidents/id=10> a <MunitionImpactIncidents> ;
+    ns1:FireLocationAltitudeMeters 6098.7570000000 ;
+    ns1:FireLocationLatitude 18.8949899000 ;
+    ns1:FireLocationLongitude -75.1205609300 ;
+    ns1:FirerVehicle "32806/24458/326" ;
+    ns1:ImpactLocationAltitudeMeters 9.9930000000 ;
+    ns1:ImpactLocationLatitude 19.4017224700 ;
+    ns1:ImpactLocationLongitude -74.0133454800 ;
+    ns1:ImpactResult "Ground Impact" ;
+    ns1:ImpactVelocityMeterPerSec 331.3000000000 ;
+    ns1:Munition "32806/24458/991" ;
+    ns1:Quantity 1 ;
+    ns1:Rate 0 ;
+    ns1:Target "Unknown" ;
+    ns1:TargetLocationAltitudeMeters "NA" ;
+    ns1:TargetLocationLatitude "NA" ;
+    ns1:TargetLocationLongitude "NA" ;
+    ns1:Timestamp "2499722" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 10 ;
+	ns1:ref-FirerVehicle <MilitaryEquipments/Id=2> ;
+	ns1:ref-Target <MilitaryEquipments/Id=16> ;
+    ns1:ref-Munition <MilitaryEquipments/Id=8> .
+
+<MunitionImpactIncidents/id=2> a <MunitionImpactIncidents> ;
+    ns1:FireLocationAltitudeMeters 2.0130000000 ;
+    ns1:FireLocationLatitude 18.7153097400 ;
+    ns1:FireLocationLongitude -75.0026656400 ;
+    ns1:FirerVehicle "32806/24458/158" ;
+    ns1:ImpactLocationAltitudeMeters 4.9810000000 ;
+    ns1:ImpactLocationLatitude 18.1021144900 ;
+    ns1:ImpactLocationLongitude -75.6235330200 ;
+    ns1:ImpactResult "Ground Impact" ;
+    ns1:ImpactVelocityMeterPerSec 993.9000000000 ;
+    ns1:Munition "32806/24458/451" ;
+    ns1:Quantity 1 ;
+    ns1:Rate 0 ;
+    ns1:Target "Unknown" ;
+    ns1:TargetLocationAltitudeMeters "NA" ;
+    ns1:TargetLocationLatitude "NA" ;
+    ns1:TargetLocationLongitude "NA" ;
+    ns1:Timestamp "2158324" ;
+    ns1:ZuluTime "15:27:00"^^xsd:time ;
+    ns1:id 2 ;
+	ns1:ref-FirerVehicle <MilitaryEquipments/Id=1> ;
+	ns1:ref-Target <MilitaryEquipments/Id=16> ;
+    ns1:ref-Munition <MilitaryEquipments/Id=6> .
+
+<MunitionImpactIncidents/id=3> a <MunitionImpactIncidents> ;
+    ns1:FireLocationAltitudeMeters -0.3240000000 ;
+    ns1:FireLocationLatitude 19.3362134800 ;
+    ns1:FireLocationLongitude -72.9905356100 ;
+    ns1:FirerVehicle "32806/24458/1272" ;
+    ns1:ImpactLocationAltitudeMeters -6.3790000000 ;
+    ns1:ImpactLocationLatitude 19.2777686400 ;
+    ns1:ImpactLocationLongitude -73.1014945000 ;
+    ns1:ImpactResult "Entity Impact" ;
+    ns1:ImpactVelocityMeterPerSec 663.0000000000 ;
+    ns1:Munition "32806/24458/1286" ;
+    ns1:Quantity 1 ;
+    ns1:Rate 0 ;
+    ns1:Target "32806/24458/1411" ;
+    ns1:TargetLocationAltitudeMeters "-0.013" ;
+    ns1:TargetLocationLatitude "19.27809196" ;
+    ns1:TargetLocationLongitude "-73.10151909" ;
+    ns1:Timestamp "2449096" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 3 ;
+	ns1:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns1:ref-Target <MilitaryEquipments/Id=4> ;
+    ns1:ref-Munition <MilitaryEquipments/Id=10> .
+
+<MunitionImpactIncidents/id=4> a <MunitionImpactIncidents> ;
+    ns1:FireLocationAltitudeMeters -0.3240000000 ;
+    ns1:FireLocationLatitude 19.3361563800 ;
+    ns1:FireLocationLongitude -72.9905946100 ;
+    ns1:FirerVehicle "32806/24458/1272" ;
+    ns1:ImpactLocationAltitudeMeters -4.3040000000 ;
+    ns1:ImpactLocationLatitude 19.2784362400 ;
+    ns1:ImpactLocationLongitude -73.1015176800 ;
+    ns1:ImpactResult "Entity Impact" ;
+    ns1:ImpactVelocityMeterPerSec 662.7000000000 ;
+    ns1:Munition "32806/24458/1551" ;
+    ns1:Quantity 1 ;
+    ns1:Rate 0 ;
+    ns1:Target "32806/24458/1411" ;
+    ns1:TargetLocationAltitudeMeters "0" ;
+    ns1:TargetLocationLatitude "19.27807066" ;
+    ns1:TargetLocationLongitude "-73.10157369" ;
+    ns1:Timestamp "2450036" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 4 ;
+	ns1:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns1:ref-Target <MilitaryEquipments/Id=4> ;
+    ns1:ref-Munition <MilitaryEquipments/Id=11> .
+
+<MunitionImpactIncidents/id=5> a <MunitionImpactIncidents> ;
+    ns1:FireLocationAltitudeMeters -0.3230000000 ;
+    ns1:FireLocationLatitude 19.3360915100 ;
+    ns1:FireLocationLongitude -72.9906616300 ;
+    ns1:FirerVehicle "32806/24458/1272" ;
+    ns1:ImpactLocationAltitudeMeters 11.4490000000 ;
+    ns1:ImpactLocationLatitude 19.2778495900 ;
+    ns1:ImpactLocationLongitude -73.1016218500 ;
+    ns1:ImpactResult "Entity Impact" ;
+    ns1:ImpactVelocityMeterPerSec 661.8000000000 ;
+    ns1:Munition "32806/24458/1561" ;
+    ns1:Quantity 1 ;
+    ns1:Rate 0 ;
+    ns1:Target "32806/24458/1411" ;
+    ns1:TargetLocationAltitudeMeters "-0.005" ;
+    ns1:TargetLocationLatitude "19.27804966" ;
+    ns1:TargetLocationLongitude "-73.1016307" ;
+    ns1:Timestamp "2451104" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 5 ;
+	ns1:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns1:ref-Target <MilitaryEquipments/Id=4> ;
+    ns1:ref-Munition <MilitaryEquipments/Id=12> .
+
+<MunitionImpactIncidents/id=6> a <MunitionImpactIncidents> ;
+    ns1:FireLocationAltitudeMeters -0.3230000000 ;
+    ns1:FireLocationLatitude 19.3360627100 ;
+    ns1:FireLocationLongitude -72.9906913800 ;
+    ns1:FirerVehicle "32806/24458/1272" ;
+    ns1:ImpactLocationAltitudeMeters 8.6500000000 ;
+    ns1:ImpactLocationLatitude 19.2781819800 ;
+    ns1:ImpactLocationLongitude -73.1016015200 ;
+    ns1:ImpactResult "Entity Impact" ;
+    ns1:ImpactVelocityMeterPerSec 663.0000000000 ;
+    ns1:Munition "32806/24458/1565" ;
+    ns1:Quantity 1 ;
+    ns1:Rate 0 ;
+    ns1:Target "32806/24458/1411" ;
+    ns1:TargetLocationAltitudeMeters "-0.007" ;
+    ns1:TargetLocationLatitude "19.27804034" ;
+    ns1:TargetLocationLongitude "-73.101656" ;
+    ns1:Timestamp "2451578" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 6 ;
+	ns1:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns1:ref-Target <MilitaryEquipments/Id=4> ;
+    ns1:ref-Munition <MilitaryEquipments/Id=13> .
+
+<MunitionImpactIncidents/id=7> a <MunitionImpactIncidents> ;
+    ns1:FireLocationAltitudeMeters -0.3230000000 ;
+    ns1:FireLocationLatitude 19.3360056800 ;
+    ns1:FireLocationLongitude -72.9907503100 ;
+    ns1:FirerVehicle "32806/24458/1272" ;
+    ns1:ImpactLocationAltitudeMeters 12.1510000000 ;
+    ns1:ImpactLocationLatitude 19.2783031200 ;
+    ns1:ImpactLocationLongitude -73.1017129400 ;
+    ns1:ImpactResult "Entity Impact" ;
+    ns1:ImpactVelocityMeterPerSec 659.1000000000 ;
+    ns1:Munition "32806/24458/1582" ;
+    ns1:Quantity 1 ;
+    ns1:Rate 0 ;
+    ns1:Target "32806/24458/1411" ;
+    ns1:TargetLocationAltitudeMeters "0" ;
+    ns1:TargetLocationLatitude "19.27802166" ;
+    ns1:TargetLocationLongitude "-73.10170614" ;
+    ns1:Timestamp "2452517" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 7 ;
+	ns1:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns1:ref-Target <MilitaryEquipments/Id=4> ;
+    ns1:ref-Munition <MilitaryEquipments/Id=14> .
+
+<MunitionImpactIncidents/id=8> a <MunitionImpactIncidents> ;
+    ns1:FireLocationAltitudeMeters -0.3230000000 ;
+    ns1:FireLocationLatitude 19.3359702000 ;
+    ns1:FireLocationLongitude -72.9907869600 ;
+    ns1:FirerVehicle "32806/24458/1272" ;
+    ns1:ImpactLocationAltitudeMeters -4.6880000000 ;
+    ns1:ImpactLocationLatitude 19.2776363500 ;
+    ns1:ImpactLocationLongitude -73.1017766100 ;
+    ns1:ImpactResult "Entity Impact" ;
+    ns1:ImpactVelocityMeterPerSec 661.7000000000 ;
+    ns1:Munition "32806/24458/1592" ;
+    ns1:Quantity 1 ;
+    ns1:Rate 0 ;
+    ns1:Target "32806/24458/1411" ;
+    ns1:TargetLocationAltitudeMeters "0" ;
+    ns1:TargetLocationLatitude "19.27801149" ;
+    ns1:TargetLocationLongitude "-73.10173489" ;
+    ns1:Timestamp "2453101" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 8 ;
+	ns1:ref-FirerVehicle <MilitaryEquipments/Id=3> ;
+	ns1:ref-Target <MilitaryEquipments/Id=4> ;
+    ns1:ref-Munition <MilitaryEquipments/Id=15> .
+
+<MunitionImpactIncidents/id=9> a <MunitionImpactIncidents> ;
+    ns1:FireLocationAltitudeMeters 6098.7520000000 ;
+    ns1:FireLocationLatitude 18.8948993500 ;
+    ns1:FireLocationLongitude -75.1205611300 ;
+    ns1:FirerVehicle "32806/24458/326" ;
+    ns1:ImpactLocationAltitudeMeters 9.9930000000 ;
+    ns1:ImpactLocationLatitude 19.4014987700 ;
+    ns1:ImpactLocationLongitude -74.0134299400 ;
+    ns1:ImpactResult "Ground Impact" ;
+    ns1:ImpactVelocityMeterPerSec 331.3000000000 ;
+    ns1:Munition "32806/24458/435" ;
+    ns1:Quantity 1 ;
+    ns1:Rate 0 ;
+    ns1:Target "Unknown" ;
+    ns1:TargetLocationAltitudeMeters "NA" ;
+    ns1:TargetLocationLatitude "NA" ;
+    ns1:TargetLocationLongitude "NA" ;
+    ns1:Timestamp "2499657" ;
+    ns1:ZuluTime "15:32:00"^^xsd:time ;
+    ns1:id 9 ;
+	ns1:ref-FirerVehicle <MilitaryEquipments/Id=2> ;
+	ns1:ref-Target <MilitaryEquipments/Id=16> ;
+    ns1:ref-Munition <MilitaryEquipments/Id=7> .
+
+<MilitaryEquipments/Id=15> a <MilitaryEquipments> ;
+    ns2:Id 15 ;
+    ns2:MarkingCallsign "SS-N-22 Sunburn Mod2 2749" ;
+    ns2:MilitaryEquipmentID "32806/24458/1592" ;
+    ns2:MilitaryEquipmentType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns2:RTIName "JS/84fa8026/25d6/2138" .
+
+<MilitaryEquipments/Id=9> a <MilitaryEquipments> ;
+    ns2:Id 9 ;
+    ns2:MarkingCallsign "AS-20 Kayak 2585" ;
+    ns2:MilitaryEquipmentID "32806/24458/1525" ;
+    ns2:MilitaryEquipmentType "AS-20 Kayak (RUS Kh-35)" ;
+    ns2:RTIName "JS/84fa8026/25d6/1994" .
+
+<MilitaryEquipments/Id=10> a <MilitaryEquipments> ;
+    ns2:Id 10 ;
+    ns2:MarkingCallsign "SS-N-22 Sunburn Mod2 2094" ;
+    ns2:MilitaryEquipmentID "32806/24458/1286" ;
+    ns2:MilitaryEquipmentType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns2:RTIName "JS/84fa8026/25d6/1563" .
+
+<MilitaryEquipments/Id=11> a <MilitaryEquipments> ;
+    ns2:Id 11 ;
+    ns2:MarkingCallsign "SS-N-22 Sunburn Mod2 2700" ;
+    ns2:MilitaryEquipmentID "32806/24458/1551" ;
+    ns2:MilitaryEquipmentType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns2:RTIName "JS/84fa8026/25d6/2093" .
+
+<MilitaryEquipments/Id=12> a <MilitaryEquipments> ;
+    ns2:Id 12 ;
+    ns2:MarkingCallsign "SS-N-22 Sunburn Mod2 2712" ;
+    ns2:MilitaryEquipmentID "32806/24458/1561" ;
+    ns2:MilitaryEquipmentType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns2:RTIName "JS/84fa8026/25d6/2104" .
+
+<MilitaryEquipments/Id=13> a <MilitaryEquipments> ;
+    ns2:Id 13 ;
+    ns2:MarkingCallsign "SS-N-22 Sunburn Mod2 2722" ;
+    ns2:MilitaryEquipmentID "32806/24458/1565" ;
+    ns2:MilitaryEquipmentType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns2:RTIName "JS/84fa8026/25d6/2113" .
+
+<MilitaryEquipments/Id=14> a <MilitaryEquipments> ;
+    ns2:Id 14 ;
+    ns2:MarkingCallsign "SS-N-22 Sunburn Mod2 2737" ;
+    ns2:MilitaryEquipmentID "32806/24458/1582" ;
+    ns2:MilitaryEquipmentType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns2:RTIName "JS/84fa8026/25d6/2127" .
+
+<MilitaryEquipments/Id=5> a <MilitaryEquipments> ;
+    ns2:Id 5 ;
+    ns2:MarkingCallsign "AS-17 Krypton 1084" ;
+    ns2:MilitaryEquipmentID "32806/24458/344" ;
+    ns2:MilitaryEquipmentType "AS-17 Krypton (RUS Kh-31Active)" ;
+    ns2:RTIName "JS/84fa8026/25d6/784" .
+
+<MilitaryEquipments/Id=6> a <MilitaryEquipments> ;
+    ns2:Id 6 ;
+    ns2:MarkingCallsign "AS-17 Krypton 1403" ;
+    ns2:MilitaryEquipmentID "32806/24458/451" ;
+    ns2:MilitaryEquipmentType "AS-17 Krypton (RUS Kh-31Active)" ;
+    ns2:RTIName "JS/84fa8026/25d6/1103" .
+
+<MilitaryEquipments/Id=7> a <MilitaryEquipments> ;
+    ns2:Id 7 ;
+    ns2:MarkingCallsign "AS-20 Kayak 1046" ;
+    ns2:MilitaryEquipmentID "32806/24458/435" ;
+    ns2:MilitaryEquipmentType "AS-20 Kayak (RUS Kh-35)" ;
+    ns2:RTIName "JS/84fa8026/25d6/746" .
+
+<MilitaryEquipments/Id=8> a <MilitaryEquipments> ;
+    ns2:Id 8 ;
+    ns2:MarkingCallsign "AS-20 Kayak 1307" ;
+    ns2:MilitaryEquipmentID "32806/24458/991" ;
+    ns2:MilitaryEquipmentType "AS-20 Kayak (RUS Kh-35)" ;
+    ns2:RTIName "JS/84fa8026/25d6/1007" .

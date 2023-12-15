@@ -101,7 +101,6 @@ class OrmDeclarativeMetaMixin(type):
 
         class_ = super(OrmDeclarativeMetaMixin, cls).__new__(cls, name, bases,
                                                              attrs)
-
         try:
             rdf_mapper = attrs['__rdf_mapper__']
         except KeyError:

@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="MunitionFireIncidents#"
+   xmlns:ns2="CombatApparatus#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="CombatApparatus/Id=1">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:Id>
+    <ns2:ApparatusID>32806/24458/95</ns2:ApparatusID>
+    <ns2:CombatApparatusType>P-8A Poseidon</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>P8A-2</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/39</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=2">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns2:Id>
+    <ns2:ApparatusID>32806/24458/132</ns2:ApparatusID>
+    <ns2:CombatApparatusType>DDG Arleigh Burke FLT I</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>BURKE A</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/31</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=3">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns2:Id>
+    <ns2:ApparatusID>32806/24458/164</ns2:ApparatusID>
+    <ns2:CombatApparatusType>DDG Arleigh Burke FLT IIA</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>ROOSEVELT</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/59</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=4">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns2:Id>
+    <ns2:ApparatusID>32806/24458/441</ns2:ApparatusID>
+    <ns2:CombatApparatusType>DDG Sovremenny II (CHN Project 956EM)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TAIZHOU</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/63</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=5">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns2:Id>
+    <ns2:ApparatusID>32806/24458/123</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SA-10 Grumble Launcher (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SA-10 GRUMBLE LCHR-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/49</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=6">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns2:Id>
+    <ns2:ApparatusID>32806/24458/182</ns2:ApparatusID>
+    <ns2:CombatApparatusType>HQ-9 Launcher (CHN CSA-9)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>HQ-9 LCHR-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/67</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=7">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns2:Id>
+    <ns2:ApparatusID>32806/24458/539</ns2:ApparatusID>
+    <ns2:CombatApparatusType>DDG Sovremenny (RUS Project 956)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>USHAKOV</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/43</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=8">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns2:Id>
+    <ns2:ApparatusID>32806/24458/335</ns2:ApparatusID>
+    <ns2:CombatApparatusType>DDG Kashin (RUS Project 61)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SMETLIVVY</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/41</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=9">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns2:Id>
+    <ns2:ApparatusID>32806/24458/158</ns2:ApparatusID>
+    <ns2:CombatApparatusType>Su-30 (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SU30MK2-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/71</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=10">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns2:Id>
+    <ns2:ApparatusID>32806/24458/721</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SSN Han (CHN Type 091)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>HAN 403-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/65</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=11">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns2:Id>
+    <ns2:ApparatusID>32806/24458/326</ns2:ApparatusID>
+    <ns2:CombatApparatusType>MiG-29 Fulcrum A  (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>MIG29K-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/47</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=12">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns2:Id>
+    <ns2:ApparatusID>32806/24458/931</ns2:ApparatusID>
+    <ns2:CombatApparatusType>DDG Luyang I (CHN Type 052B)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>GUANGZHOU</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/61</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=13">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns2:Id>
+    <ns2:ApparatusID>32806/24458/935</ns2:ApparatusID>
+    <ns2:CombatApparatusType>HQ-10 (CSA-NX-17/FL-3000N) Launcher (CHN)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>HQ-10 LCHR-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/69</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=14">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ns2:Id>
+    <ns2:ApparatusID>32806/24458/818</ns2:ApparatusID>
+    <ns2:CombatApparatusType>Clam Shell Radar (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>CLAMSHELLRADAR-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/53</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=15">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns2:Id>
+    <ns2:ApparatusID>32806/24458/310</ns2:ApparatusID>
+    <ns2:CombatApparatusType>CVN Nimitz</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>REAGAN R</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/33</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=16">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns2:Id>
+    <ns2:ApparatusID>32806/24458/171</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AGI Moma (RUS Project 861M)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>EKVATOR</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/45</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=17">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ns2:Id>
+    <ns2:ApparatusID>32806/24458/453</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SSGN Ohio (TLAM)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>FLORIDA-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/37</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=18">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns2:Id>
+    <ns2:ApparatusID>32806/24458/709</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SA-3 Goa Launcher (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SA-3 GOA LCHR-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/51</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=19">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns2:Id>
+    <ns2:ApparatusID>32806/24458/400</ns2:ApparatusID>
+    <ns2:CombatApparatusType>P-8A Poseidon</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>P8A-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/35</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=20">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns2:Id>
+    <ns2:ApparatusID>32806/24458/468</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SSBN Typhoon (RUS Project 941)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>ARKHANGELSK-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/57</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=21">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1028</ns2:ApparatusID>
+    <ns2:CombatApparatusType>Big Bird Radar (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>BIGBIRDRADAR-1</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/55</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=22">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1272</ns2:ApparatusID>
+    <ns2:CombatApparatusType>DDG Sovremenny II (CHN Project 956EM)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SOVREMENNY II-1</ns2:MarkingCallsign>
+    <ns2:RTIName>SC/84fa8026/25e3/293</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=23">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1328</ns2:ApparatusID>
+    <ns2:CombatApparatusType>FFG Jianghu I Upgrade (CHN Type 053H1G)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>ZIGONG</ns2:MarkingCallsign>
+    <ns2:RTIName>SC/84fa8026/25e3/298</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=24">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1388</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AGI Dadie (CHN Intelligence Collection)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>BEIDIAO</ns2:MarkingCallsign>
+    <ns2:RTIName>SC/84fa8026/25e3/303</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=25">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1411</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AGI Dongdiao (CHN Icebreakers Intelligence)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>DONGDIAO</ns2:MarkingCallsign>
+    <ns2:RTIName>SC/84fa8026/25e3/306</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=26">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1451</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SSG Song (CHN Type 039)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SONG 314-1</ns2:MarkingCallsign>
+    <ns2:RTIName>SC/84fa8026/25e3/320</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=27">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</ns2:Id>
+    <ns2:ApparatusID>32806/24458/344</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AS-17 Krypton (RUS Kh-31Active)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AS-17 Krypton 1084</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/784</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=28">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ns2:Id>
+    <ns2:ApparatusID>32806/24458/451</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AS-17 Krypton (RUS Kh-31Active)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AS-17 Krypton 1403</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/1103</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=29">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ns2:Id>
+    <ns2:ApparatusID>32806/24458/435</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AS-20 Kayak (RUS Kh-35)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AS-20 Kayak 1046</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/746</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=30">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ns2:Id>
+    <ns2:ApparatusID>32806/24458/991</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AS-20 Kayak (RUS Kh-35)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AS-20 Kayak 1307</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/1007</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=31">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1525</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AS-20 Kayak (RUS Kh-35)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AS-20 Kayak 2585</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/1994</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=32">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1286</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SS-N-22 Sunburn Mod2 (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SS-N-22 Sunburn Mod2 2094</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/1563</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=33">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1551</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SS-N-22 Sunburn Mod2 (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SS-N-22 Sunburn Mod2 2700</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2093</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=34">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1561</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SS-N-22 Sunburn Mod2 (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SS-N-22 Sunburn Mod2 2712</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2104</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=35">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1565</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SS-N-22 Sunburn Mod2 (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SS-N-22 Sunburn Mod2 2722</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2113</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=36">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1582</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SS-N-22 Sunburn Mod2 (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SS-N-22 Sunburn Mod2 2737</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2127</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=37">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1592</ns2:ApparatusID>
+    <ns2:CombatApparatusType>SS-N-22 Sunburn Mod2 (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>SS-N-22 Sunburn Mod2 2749</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2138</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=38">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1289</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TEST-71M Torpedo (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TEST-71M Torpedo</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/1566</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=39">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1618</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TEST-71M Torpedo (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TEST-71M Torpedo</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2175</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=40">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1126</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AGM-84D Harpoon</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AGM-84D Harpoon 942</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/644</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=41">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ns2:Id>
+    <ns2:ApparatusID>32806/24458/336</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AGM-84D Harpoon</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AGM-84D Harpoon 1242</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/942</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=42">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ns2:Id>
+    <ns2:ApparatusID>32806/24458/572</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AGM-84K (SLAM ER)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AGM-84K SLAM ER 939</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/641</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=43">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</ns2:Id>
+    <ns2:ApparatusID>32806/24458/879</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AGM-84K (SLAM ER)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AGM-84K SLAM ER 1239</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/939</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=44">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</ns2:Id>
+    <ns2:ApparatusID>32806/24458/166</ns2:ApparatusID>
+    <ns2:CombatApparatusType>YJ-83J (RAD) (CHN C-803/YJ-88/YJ-83)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>YJ-83J (RAD) 1185</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/885</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=45">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1660</ns2:ApparatusID>
+    <ns2:CombatApparatusType>YJ-83J (RAD) (CHN C-803/YJ-88/YJ-83)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>YJ-83J (RAD) 3090</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2453</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=46">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1670</ns2:ApparatusID>
+    <ns2:CombatApparatusType>YJ-83J (RAD) (CHN C-803/YJ-88/YJ-83)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>YJ-83J (RAD) 3102</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2464</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=47">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1679</ns2:ApparatusID>
+    <ns2:CombatApparatusType>YJ-83J (RAD) (CHN C-803/YJ-88/YJ-83)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>YJ-83J (RAD) 3115</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2476</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=48">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1691</ns2:ApparatusID>
+    <ns2:CombatApparatusType>YJ-83J (RAD) (CHN C-803/YJ-88/YJ-83)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>YJ-83J (RAD) 3131</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2491</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=49">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1695</ns2:ApparatusID>
+    <ns2:CombatApparatusType>YJ-83J (RAD) (CHN C-803/YJ-88/YJ-83)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>YJ-83J (RAD) 3140</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2500</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=50">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1713</ns2:ApparatusID>
+    <ns2:CombatApparatusType>YJ-83J (RAD) (CHN C-803/YJ-88/YJ-83)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>YJ-83J (RAD) 3158</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2516</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=51">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1723</ns2:ApparatusID>
+    <ns2:CombatApparatusType>YJ-83J (RAD) (CHN C-803/YJ-88/YJ-83)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>YJ-83J (RAD) 3171</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2528</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=52">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</ns2:Id>
+    <ns2:ApparatusID>32806/24458/204</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/RGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109E 978</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/680</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=53">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1752</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/RGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109E 3322</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2669</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=54">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1761</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/RGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109E 3332</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2678</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=55">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1765</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/RGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109E 3339</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2685</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=56">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1779</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/RGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109E 3352</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2696</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=57">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1787</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/RGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109E 3361</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2704</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=58">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</ns2:Id>
+    <ns2:ApparatusID>32806/24458/772</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-D (Tomahawk/RGM-109D)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109D 984</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/686</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=59">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1799</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-D (Tomahawk/RGM-109D)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109D 3374</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2716</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=60">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1808</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-D (Tomahawk/RGM-109D)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109D 3384</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2725</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=61">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1817</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-D (Tomahawk/RGM-109D)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109D 3394</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2734</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=62">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1826</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-D (Tomahawk/RGM-109D)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109D 3404</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2743</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=63">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1835</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-D (Tomahawk/RGM-109D)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109D 3414</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2752</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=64">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</ns2:Id>
+    <ns2:ApparatusID>32806/24458/560</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-C (Tomahawk/RGM-109C)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109C 981</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/683</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=65">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1846</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-C (Tomahawk/RGM-109C)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109C 3426</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2763</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=66">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1855</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-C (Tomahawk/RGM-109C)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109C 3436</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2772</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=67">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1864</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-C (Tomahawk/RGM-109C)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109C 3446</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2781</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=68">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1873</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-C (Tomahawk/RGM-109C)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109C 3456</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2790</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=69">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1883</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-C (Tomahawk/RGM-109C)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109C 3468</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2799</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=70">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1892</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-C (Tomahawk/RGM-109C)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109C 3478</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2808</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=71">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1896</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-C (Tomahawk/RGM-109C)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM RGM-109C 3486</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2816</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=72">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ns2:Id>
+    <ns2:ApparatusID>32806/24458/292</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 957</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/659</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=73">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1912</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3500</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2828</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=74">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1922</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3511</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2838</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=75">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1931</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3521</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2847</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=76">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1940</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3531</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2856</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=77">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1949</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3541</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2865</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=78">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1958</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3551</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2874</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=79">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1967</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3561</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2883</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=80">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1976</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3571</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2892</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=81">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1980</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3579</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2900</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=82">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</ns2:Id>
+    <ns2:ApparatusID>32806/24458/1994</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3591</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2910</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=83">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</ns2:Id>
+    <ns2:ApparatusID>32806/24458/2003</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3601</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2919</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=84">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</ns2:Id>
+    <ns2:ApparatusID>32806/24458/2007</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3609</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2927</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=85">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</ns2:Id>
+    <ns2:ApparatusID>32806/24458/2021</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3621</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2937</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=86">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</ns2:Id>
+    <ns2:ApparatusID>32806/24458/2030</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3631</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2946</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=87">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</ns2:Id>
+    <ns2:ApparatusID>32806/24458/2039</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3641</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2955</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=88">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</ns2:Id>
+    <ns2:ApparatusID>32806/24458/2048</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3651</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2964</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=89">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</ns2:Id>
+    <ns2:ApparatusID>32806/24458/2057</ns2:ApparatusID>
+    <ns2:CombatApparatusType>TLAM-E (Tomahawk/UGM-109E)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>TLAM UGM-109E 3661</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/2973</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=90">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</ns2:Id>
+    <ns2:ApparatusID>32806/24458/557</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AS-17ARH Krypton (RUS Kh-31Passive)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AS-17ARH Krypton 1040</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/740</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=91">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</ns2:Id>
+    <ns2:ApparatusID>32806/24458/619</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AS-17ARH Krypton (RUS Kh-31Passive)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AS-17ARH Krypton 1301</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/1001</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=92">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</ns2:Id>
+    <ns2:ApparatusID>32806/24458/2103</ns2:ApparatusID>
+    <ns2:CombatApparatusType>AS-17ARH Krypton (RUS Kh-31Passive)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>AS-17ARH Krypton 3800</ns2:MarkingCallsign>
+    <ns2:RTIName>JS/84fa8026/25d6/3107</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=93">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</ns2:Id>
+    <ns2:ApparatusID>30mm AA CIWS (RUS)</ns2:ApparatusID>
+    <ns2:CombatApparatusType>30mm AA CIWS (RUS)</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>30mm AA CIWS (RUS)</ns2:MarkingCallsign>
+    <ns2:RTIName>30mm AA CIWS (RUS)</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="CombatApparatus/Id=94">
+    <rdf:type rdf:resource="CombatApparatus"/>
+    <ns2:Id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</ns2:Id>
+    <ns2:ApparatusID>Unknown</ns2:ApparatusID>
+    <ns2:CombatApparatusType>Unknown</ns2:CombatApparatusType>
+    <ns2:MarkingCallsign>Unknown</ns2:MarkingCallsign>
+    <ns2:RTIName>Unknown</ns2:RTIName>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=76">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:25:00</ns1:ZuluTime>
+    <ns1:Timestamp>2045714</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/158</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/344</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.9116347700</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-75.0205075300</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0040000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">174.9000000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">376.5100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=77">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:25:00</ns1:ZuluTime>
+    <ns1:Timestamp>2045778</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/158</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/451</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.9115232000</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-75.0204973800</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0040000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">174.9000000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">376.5100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=78">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:26:00</ns1:ZuluTime>
+    <ns1:Timestamp>2099153</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/326</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/435</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.8839565200</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-75.1205876800</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6098.2600000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0E-10</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=79">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:26:00</ns1:ZuluTime>
+    <ns1:Timestamp>2099235</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/326</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/991</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.8840707400</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-75.1205874200</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6098.2640000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0E-10</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=80">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:26:00</ns1:ZuluTime>
+    <ns1:Timestamp>2099570</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/326</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/1525</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.8845373900</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-75.1205863500</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6098.2790000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0E-10</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=81">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:31:00</ns1:ZuluTime>
+    <ns1:Timestamp>2421126</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/1272</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/1286</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3379124400</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-72.9887802300</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.3290000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220.0000000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=32"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=82">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:31:00</ns1:ZuluTime>
+    <ns1:Timestamp>2422121</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/1272</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/1551</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3378520000</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-72.9888426800</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.3290000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220.0000000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=83">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:31:00</ns1:ZuluTime>
+    <ns1:Timestamp>2423133</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/1272</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/1561</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3377905300</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-72.9889061900</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.3290000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220.0000000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=84">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:31:00</ns1:ZuluTime>
+    <ns1:Timestamp>2423601</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/1272</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/1565</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3377621100</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-72.9889355600</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.3290000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220.0000000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=85">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:31:00</ns1:ZuluTime>
+    <ns1:Timestamp>2424547</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/1272</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/1582</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3377046400</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-72.9889949400</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.3290000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220.0000000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=86">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:31:00</ns1:ZuluTime>
+    <ns1:Timestamp>2425085</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/1272</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/1592</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3376719600</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-72.9890287000</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.3290000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220.0000000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=87">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:32:00</ns1:ZuluTime>
+    <ns1:Timestamp>2468673</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/1272</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/1289</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3350243100</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-72.9917642300</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.3140000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220.0000000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=88">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:32:00</ns1:ZuluTime>
+    <ns1:Timestamp>2469141</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/1272</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/1618</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.3349958900</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-72.9917936100</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.3140000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220.0000000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3100000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=89">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:55:00</ns1:ZuluTime>
+    <ns1:Timestamp>3878602</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/95</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/1126</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.9195923800</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-78.9855218200</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6097.3770000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">138.8800000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400.0200000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=90">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:55:00</ns1:ZuluTime>
+    <ns1:Timestamp>3878684</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/95</ns1:FirerVehicle>
+    <ns1:Munition>32806/24458/336</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.9194779800</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-78.9854148700</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6097.3830000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">138.8800000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400.0200000000</ns1:FirerSpeedKnots>
+    <ns1:Target>Unknown</ns1:Target>
+    <ns1:TargetLocationLatitude>NA</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>NA</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>NA</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>NA</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>NA</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>NA</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>NA</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=91">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:04:00</ns1:ZuluTime>
+    <ns1:Timestamp>4393888</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/441</ns1:FirerVehicle>
+    <ns1:Munition>30mm AA CIWS (RUS)</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.1874585100</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-77.8178415700</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.0180000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">106.0300000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.3800000000</ns1:FirerSpeedKnots>
+    <ns1:Target>32806/24458/1126</ns1:Target>
+    <ns1:TargetLocationLatitude>20.20053303</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>-77.84895753</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>4.695</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>114.36</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>547.93</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>294.1</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>1.922</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=93"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=92">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:04:00</ns1:ZuluTime>
+    <ns1:Timestamp>4394360</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/441</ns1:FirerVehicle>
+    <ns1:Munition>30mm AA CIWS (RUS)</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.1874437000</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-77.8177680000</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.0210000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">106.0300000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.3800000000</ns1:FirerSpeedKnots>
+    <ns1:Target>32806/24458/1126</ns1:Target>
+    <ns1:TargetLocationLatitude>20.20004283</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>-77.84777748</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>5.094</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>114.24</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>547.93</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>294.1</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>1.854</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=93"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=93">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:04:00</ns1:ZuluTime>
+    <ns1:Timestamp>4394828</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/441</ns1:FirerVehicle>
+    <ns1:Munition>30mm AA CIWS (RUS)</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.1874290200</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-77.8176950500</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.0240000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">106.0300000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.3800000000</ns1:FirerSpeedKnots>
+    <ns1:Target>32806/24458/1126</ns1:Target>
+    <ns1:TargetLocationLatitude>20.199556</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>-77.84662542</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>5.062</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>114.24</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>547.93</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>294.1</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>1.786</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=93"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MunitionFireIncidents/id=94">
+    <rdf:type rdf:resource="MunitionFireIncidents"/>
+    <ns1:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</ns1:id>
+    <ns1:ZuluTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:04:00</ns1:ZuluTime>
+    <ns1:Timestamp>4395972</ns1:Timestamp>
+    <ns1:FirerVehicle>32806/24458/441</ns1:FirerVehicle>
+    <ns1:Munition>30mm AA CIWS (RUS)</ns1:Munition>
+    <ns1:Quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns1:Quantity>
+    <ns1:FireLocationLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.1873931500</ns1:FireLocationLatitude>
+    <ns1:FireLocationLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-77.8175167300</ns1:FireLocationLongitude>
+    <ns1:FireLocationAltitudeMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.0310000000</ns1:FireLocationAltitudeMeters>
+    <ns1:FirerCourseDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">106.0300000000</ns1:FirerCourseDegree>
+    <ns1:FirerSpeedKnots rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.3800000000</ns1:FirerSpeedKnots>
+    <ns1:Target>32806/24458/1126</ns1:Target>
+    <ns1:TargetLocationLatitude>20.19836593</ns1:TargetLocationLatitude>
+    <ns1:TargetLocationLongitude>-77.84380928</ns1:TargetLocationLongitude>
+    <ns1:TargetLocationAltitudeMeters>4.994</ns1:TargetLocationAltitudeMeters>
+    <ns1:TargetCourseDegree>114.24</ns1:TargetCourseDegree>
+    <ns1:TargetSpeedKnots>547.93</ns1:TargetSpeedKnots>
+    <ns1:BearingDegree>294</ns1:BearingDegree>
+    <ns1:RangeNauticalMile>1.622</ns1:RangeNauticalMile>
+    <ns1:ref-Munition rdf:resource="CombatApparatus/Id=93"/>
+  </rdf:Description>
+</rdf:RDF>

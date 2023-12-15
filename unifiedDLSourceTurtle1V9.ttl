@@ -1,0 +1,81 @@
+@base <http://infobeyondtech.com/unifieddl/> .
+@prefix ns1: <MilitaryEquipments#> .
+@prefix ns2: <MunitionImpactIncidents#> .
+@prefix ns3: <MunitionFireIncidents#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<MilitaryEquipments/Id=3> a <MilitaryEquipments> ;
+    ns1:MilitaryEquipmentID "32806/24458/1411" ;
+    ns1:MilitaryEquipmentType "AGI Dongdiao (CHN Icebreakers Intelligence)" ;
+    ns1:Id 3 ;
+    ns1:MarkingCallsign "DONGDIAO" ;
+    ns1:RTIName "SC/84fa8026/25e3/306" .
+
+<MilitaryEquipments/Id=4> a <MilitaryEquipments> ;
+    ns1:MilitaryEquipmentID "32806/24458/1286" ;
+    ns1:MilitaryEquipmentType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns1:Id 4 ;
+    ns1:MarkingCallsign "SS-N-22 Sunburn Mod2 2094" ;
+    ns1:RTIName "JS/84fa8026/25d6/1563" .
+
+<MunitionFireIncidents/id=1> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3379124400 ;
+    ns3:FireLocationLongitude -72.9887802300 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1286" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2421126" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 1 ;
+    ns3:ref-Target <MilitaryEquipments/Id=11> ;
+	ns3:ref-FirerVehicle <MilitaryEquipments/Id=2> ;
+	ns3:ref-Munition <MilitaryEquipments/Id=4> .
+
+<MunitionImpactIncidents/id=1> a <MunitionImpactIncidents> ;
+    ns2:FireLocationAltitudeMeters -0.3240000000 ;
+    ns2:FireLocationLatitude 19.3362134800 ;
+    ns2:FireLocationLongitude -72.9905356100 ;
+    ns2:FirerVehicle "32806/24458/1272" ;
+    ns2:ImpactLocationAltitudeMeters -6.3790000000 ;
+    ns2:ImpactLocationLatitude 19.2777686400 ;
+    ns2:ImpactLocationLongitude -73.1014945000 ;
+    ns2:ImpactResult "Entity Impact" ;
+    ns2:ImpactVelocityMeterPerSec 663.0000000000 ;
+    ns2:Munition "32806/24458/1286" ;
+    ns2:Quantity 1 ;
+    ns2:Rate 0 ;
+    ns2:Target "32806/24458/1411" ;
+    ns2:TargetLocationAltitudeMeters "-0.013" ;
+    ns2:TargetLocationLatitude "19.27809196" ;
+    ns2:TargetLocationLongitude "-73.10151909" ;
+    ns2:Timestamp "2449096" ;
+    ns2:ZuluTime "15:32:00"^^xsd:time ;
+    ns2:id 1 ;
+    ns2:ref-FirerVehicle <MilitaryEquipments/Id=2> ;
+	ns2:ref-Munition <MilitaryEquipments/Id=4> ;
+	ns2:ref-Target <MilitaryEquipments/Id=3> .
+
+<MilitaryEquipments/Id=11> a <MilitaryEquipments> ;
+    ns1:MilitaryEquipmentID "Unknown" ;
+    ns1:MilitaryEquipmentType "Unknown" ;
+    ns1:Id 11 ;
+    ns1:MarkingCallsign "Unknown" ;
+    ns1:RTIName "Unknown" .
+
+<MilitaryEquipments/Id=2> a <MilitaryEquipments> ;
+    ns1:MilitaryEquipmentID "32806/24458/1272" ;
+    ns1:MilitaryEquipmentType "DDG Sovremenny II (CHN Project 956EM)" ;
+    ns1:Id 2 ;
+    ns1:MarkingCallsign "SOVREMENNY II-1" ;
+    ns1:RTIName "SC/84fa8026/25e3/293" .

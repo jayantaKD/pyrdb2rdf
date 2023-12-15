@@ -1,0 +1,226 @@
+@base <http://infobeyondtech.com/unifieddl/> .
+@prefix ns1: <CombatApparatus#> .
+@prefix ns2: <MunitionImpactIncidents#> .
+@prefix ns3: <MunitionFireIncidents#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<CombatApparatus/Id=1> a <CombatApparatus> ;
+    ns1:ApparatusID "32806/24458/1028" ;
+    ns1:CombatApparatusType "Big Bird Radar (RUS)" ;
+    ns1:Id 1 ;
+    ns1:MarkingCallsign "BIGBIRDRADAR-1" ;
+    ns1:RTIName "JS/84fa8026/25d6/55" .
+
+<CombatApparatus/Id=10> a <CombatApparatus> ;
+    ns1:ApparatusID "32806/24458/1126" ;
+    ns1:CombatApparatusType "AGM-84D Harpoon" ;
+    ns1:Id 10 ;
+    ns1:MarkingCallsign "AGM-84D-Harpoon-942" ;
+    ns1:RTIName "JS/84fa8026/25d6/644" .
+
+<CombatApparatus/Id=3> a <CombatApparatus> ;
+    ns1:ApparatusID "32806/24458/1411" ;
+    ns1:CombatApparatusType "AGI Dongdiao (CHN Icebreakers Intelligence)" ;
+    ns1:Id 3 ;
+    ns1:MarkingCallsign "DONGDIAO" ;
+    ns1:RTIName "SC/84fa8026/25e3/306" .
+
+<CombatApparatus/Id=4> a <CombatApparatus> ;
+    ns1:ApparatusID "32806/24458/1286" ;
+    ns1:CombatApparatusType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns1:Id 4 ;
+    ns1:MarkingCallsign "SS-N-22-Sunburn-Mod2-2094" ;
+    ns1:RTIName "JS/84fa8026/25d6/1563" .
+
+<CombatApparatus/Id=5> a <CombatApparatus> ;
+    ns1:ApparatusID "32806/24458/1551" ;
+    ns1:CombatApparatusType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns1:Id 5 ;
+    ns1:MarkingCallsign "SS-N-22-Sunburn-Mod2-2700" ;
+    ns1:RTIName "JS/84fa8026/25d6/2093" .
+
+<CombatApparatus/Id=6> a <CombatApparatus> ;
+    ns1:ApparatusID "32806/24458/1561" ;
+    ns1:CombatApparatusType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns1:Id 6 ;
+    ns1:MarkingCallsign "SS-N-22-Sunburn-Mod2-2712" ;
+    ns1:RTIName "JS/84fa8026/25d6/2104" .
+
+<CombatApparatus/Id=7> a <CombatApparatus> ;
+    ns1:ApparatusID "32806/24458/1565" ;
+    ns1:CombatApparatusType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns1:Id 7 ;
+    ns1:MarkingCallsign "SS-N-22-Sunburn-Mod2-2722" ;
+    ns1:RTIName "JS/84fa8026/25d6/2113" .
+
+<CombatApparatus/Id=8> a <CombatApparatus> ;
+    ns1:ApparatusID "32806/24458/1582" ;
+    ns1:CombatApparatusType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns1:Id 8 ;
+    ns1:MarkingCallsign "SS-N-22-Sunburn-Mod2-2737" ;
+    ns1:RTIName "JS/84fa8026/25d6/2127" .
+
+<CombatApparatus/Id=9> a <CombatApparatus> ;
+    ns1:ApparatusID "32806/24458/1592" ;
+    ns1:CombatApparatusType "SS-N-22 Sunburn Mod2 (RUS)" ;
+    ns1:Id 9 ;
+    ns1:MarkingCallsign "SS-N-22-Sunburn-Mod2-2749" ;
+    ns1:RTIName "JS/84fa8026/25d6/2138" .
+
+<MunitionFireIncidents/id=1> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3379124400 ;
+    ns3:FireLocationLongitude -72.9887802300 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1286" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2421126" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 1 ;
+    ns3:ref-Target <CombatApparatus/Id=11> ;
+	ns3:ref-FirerVehicle <CombatApparatus/Id=2> ;
+	ns3:ref-Munition <CombatApparatus/Id=4> .
+
+<MunitionFireIncidents/id=2> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3378520000 ;
+    ns3:FireLocationLongitude -72.9888426800 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1551" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2422121" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 2 ;
+    ns3:ref-Target <CombatApparatus/Id=11> ;
+	ns3:ref-FirerVehicle <CombatApparatus/Id=2> ;
+	ns3:ref-Munition <CombatApparatus/Id=5> .
+
+<MunitionFireIncidents/id=3> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3377905300 ;
+    ns3:FireLocationLongitude -72.9889061900 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1561" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2423133" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 3 ;
+    ns3:ref-Target <CombatApparatus/Id=11> ;
+	ns3:ref-FirerVehicle <CombatApparatus/Id=2> ;
+	ns3:ref-Munition <CombatApparatus/Id=6> .
+
+<MunitionFireIncidents/id=4> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3377621100 ;
+    ns3:FireLocationLongitude -72.9889355600 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1565" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2423601" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 4 ;
+    ns3:ref-Target <CombatApparatus/Id=11> ;
+	ns3:ref-FirerVehicle <CombatApparatus/Id=2> ;
+	ns3:ref-Munition <CombatApparatus/Id=7> .
+
+<MunitionFireIncidents/id=5> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3377046400 ;
+    ns3:FireLocationLongitude -72.9889949400 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1582" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2424547" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 5 ;
+    ns3:ref-Target <CombatApparatus/Id=11> ;
+	ns3:ref-FirerVehicle <CombatApparatus/Id=2> ;
+	ns3:ref-Munition <CombatApparatus/Id=8> .
+
+<MunitionFireIncidents/id=6> a <MunitionFireIncidents> ;
+    ns3:BearingDegree "NA" ;
+    ns3:FireLocationAltitudeMeters -0.3290000000 ;
+    ns3:FireLocationLatitude 19.3376719600 ;
+    ns3:FireLocationLongitude -72.9890287000 ;
+    ns3:FirerCourseDegree 220.0000000000 ;
+    ns3:FirerSpeedKnots 18.3100000000 ;
+    ns3:FirerVehicle "32806/24458/1272" ;
+    ns3:Munition "32806/24458/1592" ;
+    ns3:Quantity 1 ;
+    ns3:RangeNauticalMile "NA" ;
+    ns3:Target "Unknown" ;
+    ns3:TargetCourseDegree "NA" ;
+    ns3:TargetLocationAltitudeMeters "NA" ;
+    ns3:TargetLocationLatitude "NA" ;
+    ns3:TargetLocationLongitude "NA" ;
+    ns3:TargetSpeedKnots "NA" ;
+    ns3:Timestamp "2425085" ;
+    ns3:ZuluTime "15:31:00"^^xsd:time ;
+    ns3:id 6 ;
+    ns3:ref-Target <CombatApparatus/Id=11> ;
+	ns3:ref-FirerVehicle <CombatApparatus/Id=2> ;
+	ns3:ref-Munition <CombatApparatus/Id=9> .
+
+<CombatApparatus/Id=11> a <CombatApparatus> ;
+    ns1:ApparatusID "Unknown" ;
+    ns1:CombatApparatusType "Unknown" ;
+    ns1:Id 11 ;
+    ns1:MarkingCallsign "Unknown" ;
+    ns1:RTIName "Unknown" .
+
+<CombatApparatus/Id=2> a <CombatApparatus> ;
+    ns1:ApparatusID "32806/24458/1272" ;
+    ns1:CombatApparatusType "DDG Sovremenny II (CHN Project 956EM)" ;
+    ns1:Id 2 ;
+    ns1:MarkingCallsign "SOVREMENNY-II-1" ;
+    ns1:RTIName "SC/84fa8026/25e3/293" .

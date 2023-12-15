@@ -260,7 +260,7 @@ class DirectMapping(_rdf.store.Store):
                 cols_datatypes_items\
                  .append((table_iri,
                           {colname: _common.canon_rdf_datatype_from_sql
-                                     (prop.columns[0].type)
+                                     (prop.columns[0].type,colname)
                            for colname, prop in props.items()}))
                 rels_items\
                  .append((table_iri,
@@ -820,6 +820,7 @@ class DirectMapping(_rdf.store.Store):
 
                 elif isinstance(object_pattern, _rdf.Literal):
                     # IRI, non-ref IRI, literal
+
 
                     if object_pattern.datatype \
                            not in _common.rdf_datatypes_from_sql\
